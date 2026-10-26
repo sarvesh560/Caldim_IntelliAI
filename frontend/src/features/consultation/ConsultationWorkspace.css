@@ -1,0 +1,419 @@
+.consultation-workspace {
+  display: flex;
+  flex: 1;
+  max-width: 1440px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 24px;
+  gap: 28px;
+  min-height: calc(100vh - 120px);
+}
+
+/* Chat Stream Column */
+.consultation__chat-col {
+  flex: 1.2;
+  display: flex;
+  flex-direction: column;
+  background: var(--color-surface-white);
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-xl);
+  box-shadow: var(--shadow-card);
+  overflow: hidden;
+}
+
+.consultation__chat-header {
+  padding: 18px 24px;
+  border-bottom: 1px solid var(--border-color);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  background: var(--color-surface-white);
+}
+
+.consultation__chat-title-group {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.consultation__chat-title {
+  font-size: 1.15rem;
+  font-weight: 700;
+  color: var(--color-text-main);
+  letter-spacing: -0.01em;
+}
+
+.consultation__chat-visitor {
+  font-size: 0.8125rem;
+  color: var(--color-text-secondary);
+  font-weight: 500;
+}
+
+.consultation__messages-list {
+  flex: 1;
+  overflow-y: auto;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  background: #FAFCFE;
+}
+
+/* Messages */
+.consultation__msg {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  max-width: 90%;
+  animation: fadeIn 0.25s ease-out;
+}
+
+.consultation__msg--user {
+  align-self: flex-end;
+}
+
+.consultation__msg--assistant {
+  align-self: flex-start;
+  max-width: 92%;
+}
+
+.consultation__msg-bubble {
+  padding: 16px 20px;
+  border-radius: var(--radius-lg);
+  font-size: 0.9375rem;
+  line-height: 1.6;
+}
+
+.consultation__msg--user .consultation__msg-bubble {
+  background: var(--color-pale-teal);
+  color: var(--color-text-main);
+  border: 1px solid var(--color-pale-teal-border);
+  border-bottom-right-radius: var(--radius-xs);
+  font-weight: 500;
+}
+
+.consultation__msg--assistant .consultation__msg-bubble {
+  background: var(--color-surface-white);
+  color: var(--color-text-main);
+  border: 1px solid var(--border-color);
+  border-bottom-left-radius: var(--radius-xs);
+  box-shadow: var(--shadow-subtle);
+}
+
+.consultation__msg-reply {
+  white-space: pre-wrap;
+  word-break: break-word;
+}
+
+.consultation__msg-sources {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 12px;
+  padding-top: 12px;
+  border-top: 1px solid var(--color-surface-subtle);
+}
+
+.consultation__source-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 4px 10px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  background: var(--color-blue-light);
+  color: var(--color-soft-blue);
+  border-radius: var(--radius-full);
+  text-decoration: none;
+  border: 1px solid rgba(82, 120, 216, 0.2);
+}
+
+.consultation__source-pill:hover {
+  background: #E0EBFF;
+}
+
+.consultation__dynamic-questions {
+  margin-top: 14px;
+  padding: 12px 14px;
+  background: #F8FAFD;
+  border: 1px solid #E2E8F0;
+  border-radius: var(--radius-md);
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.consultation__dynamic-questions-title {
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--color-primary-teal);
+}
+
+.consultation__question-chip {
+  padding: 8px 12px;
+  font-size: 0.8125rem;
+  font-weight: 500;
+  text-align: left;
+  background: var(--color-surface-white);
+  border: 1px solid #CBD5E1;
+  border-radius: var(--radius-sm);
+  color: var(--color-text-main);
+  cursor: pointer;
+  transition: all var(--transition-fast);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.consultation__question-chip:hover {
+  background: var(--color-pale-teal);
+  border-color: var(--color-primary-teal);
+  color: var(--color-primary-teal);
+}
+
+/* Input Bar */
+.consultation__input-container {
+  padding: 16px 20px;
+  border-top: 1px solid var(--border-color);
+  background: var(--color-surface-white);
+}
+
+.consultation__input-form {
+  display: flex;
+  align-items: flex-end;
+  gap: 12px;
+  background: #F8FAFC;
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-md);
+  padding: 10px 14px;
+  transition: border-color var(--transition-fast);
+}
+
+.consultation__input-form:focus-within {
+  border-color: var(--color-primary-teal);
+  background: #FFFFFF;
+  box-shadow: 0 0 0 3px rgba(22, 125, 141, 0.12);
+}
+
+.consultation__textarea {
+  flex: 1;
+  border: none;
+  outline: none;
+  background: transparent;
+  font-size: 0.9375rem;
+  color: var(--color-text-main);
+  font-family: var(--font-sans);
+  resize: none;
+  min-height: 48px;
+  max-height: 140px;
+  line-height: 1.5;
+}
+
+.consultation__textarea::placeholder {
+  color: var(--color-text-muted);
+}
+
+/* Architecture Findings Column */
+.consultation__findings-col {
+  flex: 0.95;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  overflow-y: auto;
+  max-height: calc(100vh - 120px);
+}
+
+.consultation__finding-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  font-size: 0.875rem;
+  line-height: 1.5;
+  color: var(--color-text-secondary);
+}
+
+.consultation__finding-bullet {
+  color: var(--color-primary-teal);
+  font-weight: 700;
+  font-size: 1.1rem;
+  line-height: 1;
+  flex-shrink: 0;
+}
+
+.consultation__comparison-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 14px;
+}
+
+.consultation__comparison-box {
+  padding: 12px 14px;
+  border-radius: var(--radius-md);
+  font-size: 0.8125rem;
+  line-height: 1.5;
+}
+
+.consultation__comparison-box--primary {
+  background: var(--color-pale-teal);
+  border: 1px solid var(--color-pale-teal-border);
+}
+
+.consultation__comparison-box--primary h4 {
+  color: var(--color-primary-teal);
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 4px;
+}
+
+.consultation__comparison-box--alt {
+  background: #F1F5F9;
+  border: 1px solid #E2E8F0;
+}
+
+.consultation__comparison-box--alt h4 {
+  color: var(--color-text-secondary);
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 4px;
+}
+
+.consultation__tradeoff {
+  font-size: 0.8125rem;
+  color: var(--color-text-secondary);
+  line-height: 1.5;
+  margin-top: 10px;
+  padding: 8px 12px;
+  background: #FFFBEB;
+  border: 1px solid #FDE68A;
+  border-radius: var(--radius-sm);
+}
+
+.consultation__roadmap-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.consultation__roadmap-step {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 10px 14px;
+  background: #F8FAFC;
+  border: 1px solid #E2E8F0;
+  border-radius: var(--radius-sm);
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--color-text-main);
+}
+
+.consultation__step-num {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  background: var(--color-primary-teal);
+  color: #FFFFFF;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.75rem;
+  flex-shrink: 0;
+}
+
+.consultation__msg--error .consultation__msg-bubble {
+  background: #FFF1F2;
+  border: 1px solid #FECDD3;
+  color: #BE123C;
+}
+
+.consultation__msg--calibration .consultation__msg-bubble {
+  background: #F0FDF4;
+  border: 1px solid #BBF7D0;
+  color: #166534;
+  font-size: 0.875rem;
+}
+
+/* Calibration Telemetry Fields */
+.consultation__calibration-field {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  font-size: 0.8125rem;
+  padding: 4px 0;
+}
+
+.consultation__calibration-label {
+  color: var(--color-text-secondary);
+  font-weight: 500;
+  min-width: 90px;
+}
+
+.consultation__calibration-value {
+  color: var(--color-text-main);
+  font-weight: 600;
+  text-align: right;
+  word-break: break-word;
+}
+
+/* Inline Calibration Form */
+.consultation__calibration-form {
+  margin-top: 14px;
+  padding-top: 14px;
+  border-top: 1px solid var(--border-color);
+  animation: fadeIn 0.2s ease-out;
+}
+
+.consultation__calib-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+
+.consultation__calib-grid label {
+  display: block;
+  font-size: 0.72rem;
+  font-weight: 700;
+  color: var(--color-text-secondary);
+  text-transform: uppercase;
+  margin-bottom: 3px;
+}
+
+.consultation__calib-grid input {
+  width: 100%;
+  padding: 6px 10px;
+  font-size: 0.8125rem;
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-sm);
+  background: var(--color-surface-white);
+  color: var(--color-text-main);
+  outline: none;
+}
+
+.consultation__calib-grid input:focus {
+  border-color: var(--color-primary-teal);
+  box-shadow: 0 0 0 2px rgba(22, 125, 141, 0.15);
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(6px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@media (max-width: 1024px) {
+  .consultation-workspace {
+    flex-direction: column;
+    padding: 16px;
+  }
+  .consultation__findings-col {
+    max-height: none;
+  }
+  .consultation__calib-grid {
+    grid-template-columns: 1fr;
+  }
+}

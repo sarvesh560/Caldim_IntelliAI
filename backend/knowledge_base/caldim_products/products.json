@@ -1,0 +1,614 @@
+{
+  "$schema_version": "1.1",
+  "catalogue_title": "CALDIM Product Knowledge Catalogue",
+  "generated_at": "2026-10-26T15:00:00Z",
+  "governance_rule": "STRICT TRUTHFULNESS: Every product record is in DRAFT and UNVERIFIED status until an authorized CALDIM product owner explicitly signs off with verifiable evidence. Unverified records are strictly gated from authoritative AI consultation.",
+  "products": [
+    {
+      "name": "CALTIMS",
+      "slug": "caltims",
+      "category": "HR & Payroll Engine",
+      "tagline": "Sync timesheets to payroll instantly.",
+      "overview": "Core timesheet and payroll automation engine from CALDIM Software Division (CALDIM-DAS). Bridges daily work logs and month-end payroll by calculating leaves, task allocations, and tax deductions automatically without manual intervention. Sourced from official CALDIM product page; listed under Planned Capabilities with Request Preview Access.",
+      "readiness_status": "preview_ready",
+      "publication_status": "draft",
+      "is_verified": false,
+      "verifier_name": null,
+      "verification_date": null,
+      "official_product_page": "https://caldimproducts.com/products/caltims",
+      "documentation_url": null,
+      "demo_url": null,
+      "video_preview_title": "",
+      "video_preview_description": "",
+      "hero_image_url": "",
+      "customization_scope": "CALDIM custom software division can prioritize the integration and rollout of this module based on client business requirements.",
+      "integrations": [],
+      "deployment_options": [
+        "Cloud Preview / Custom Enterprise Rollout"
+      ],
+      "pricing_status": "Unverified / Contact Sales",
+      "pricing_evidence": null,
+      "case_studies": [],
+      "customer_references": [],
+      "target_industries": [
+        "Multi-Facility Enterprises",
+        "Industrial Manufacturing & Services"
+      ],
+      "target_roles": [
+        "Plant Operations Director",
+        "HR Operations Lead",
+        "Finance & Payroll Manager"
+      ],
+      "business_problems": [
+        {
+          "industry": "Multi-Facility Enterprises",
+          "business_problem": "Manual Timesheet Calculation and Payroll Overhead",
+          "solution_summary": "Syncs timesheets directly to payroll to eliminate manual entry and automate Indian tax slabs, PF, and ESI compliance rules.",
+          "target_profession": "HR Operations / Finance Controller"
+        }
+      ],
+      "capabilities": [
+        {
+          "title": "Log Weekly Timesheets [PLANNED/PREVIEW]",
+          "description": "Submits work hours against assigned projects using a clean spreadsheet grid.",
+          "metric_highlight": "Eliminates hours of manual entry",
+          "feature_order": 1,
+          "is_verified": false
+        },
+        {
+          "title": "Manage Employee Leaves [PLANNED/PREVIEW]",
+          "description": "Syncs approved time-off requests directly to active timesheet grids automatically.",
+          "metric_highlight": "Automatic timesheet grid synchronization",
+          "feature_order": 2,
+          "is_verified": false
+        },
+        {
+          "title": "Run Monthly Payroll [PLANNED/PREVIEW]",
+          "description": "Auto-calculates earnings, deductions, and tax slabs from approved time logs.",
+          "metric_highlight": "Zero Legal Mistakes: Automates Indian tax slabs, PF, and ESI rules",
+          "feature_order": 3,
+          "is_verified": false
+        },
+        {
+          "title": "Export Bank Transfers [PLANNED/PREVIEW]",
+          "description": "Downloads direct banking-portal-ready payment files in one click.",
+          "metric_highlight": "One-click banking portal payment file generation",
+          "feature_order": 4,
+          "is_verified": false
+        },
+        {
+          "title": "Configure Users & Roles [PLANNED/PREVIEW]",
+          "description": "Secures sensitive workforce financial data through granular permission tables.",
+          "metric_highlight": "Module-level permissions and audit logs",
+          "feature_order": 5,
+          "is_verified": false
+        },
+        {
+          "title": "Generate Custom Reports [PLANNED/PREVIEW]",
+          "description": "Analyzes team utilization and historical payroll costs in seconds.",
+          "metric_highlight": "Live employee utilization rates and historical cost reports",
+          "feature_order": 6,
+          "is_verified": false
+        }
+      ],
+      "limitations": [
+        {
+          "title": "Custom Rollout Prerequisite",
+          "description": "CALTIMS is listed as a custom module rollout prioritized by CALDIM engineers based on enterprise client requirements.",
+          "mitigation_or_alternative": "Clients engage via direct preview access request."
+        }
+      ],
+      "media": [],
+      "source_references": [
+        {
+          "source_name": "Official CALTIMS Product Webpage",
+          "url": "https://caldimproducts.com/products/caltims",
+          "notes": "Verified against live Next.js product page. Features titled 'Planned Capabilities' with 'Request Preview Access'."
+        },
+        {
+          "source_name": "CALDIM Corporate Information",
+          "url": "https://caldimproducts.com",
+          "notes": "Head Office: Chennai, Tamil Nadu; Branch Office: Hosur, Tamil Nadu. D-U-N-S: 86-039-9952."
+        }
+      ],
+      "notes": "DRAFT RECORD: Sourced from official CALDIM webpage. Fabricated metrics (10k workers, 85% cycle time) and unverified hardware integrations removed. Set to preview_ready / draft pending authorized human product owner review."
+    },
+    {
+      "name": "CALRIMS",
+      "slug": "calrims",
+      "category": "Recruitment Intelligence & Applicant Tracking",
+      "tagline": "Automated candidate sourcing, resume intelligence, and interview pipeline",
+      "overview": "Recruitment and applicant management platform designed to automate resume intake, candidate matching against job roles, and multi-round interview tracking. Displayed in CALDIM-DAS showcase.",
+      "readiness_status": "preview_ready",
+      "publication_status": "draft",
+      "is_verified": false,
+      "verifier_name": null,
+      "verification_date": null,
+      "official_product_page": "https://caldimproducts.com/products",
+      "documentation_url": null,
+      "demo_url": null,
+      "video_preview_title": "",
+      "video_preview_description": "",
+      "hero_image_url": "",
+      "customization_scope": "Custom scorecard criteria, external job board webhooks, and branded applicant portals.",
+      "integrations": [],
+      "deployment_options": ["Cloud SaaS"],
+      "pricing_status": "Unverified / Contact Sales",
+      "pricing_evidence": null,
+      "case_studies": [],
+      "customer_references": [],
+      "target_industries": ["IT Staffing & Consulting"],
+      "target_roles": ["Talent Acquisition Lead", "Technical Recruiter"],
+      "business_problems": [
+        {
+          "industry": "IT Staffing & Consulting",
+          "business_problem": "High Resume Volume and Slow Candidate Screening Cycles",
+          "solution_summary": "CALRIMS scores resumes against mandatory skill tags and accelerates shortlist turnaround.",
+          "target_profession": "Talent Acquisition Lead / Technical Recruiter"
+        }
+      ],
+      "capabilities": [
+        {
+          "title": "Resume Intelligence & Semantic Parser [ILLUSTRATIVE]",
+          "description": "Extracts skills, project experience, and employment tenure from PDF/Word resumes.",
+          "metric_highlight": "Parsing capability observed in preview demo; exact benchmark unverified",
+          "feature_order": 1,
+          "is_verified": false
+        }
+      ],
+      "limitations": [
+        {
+          "title": "AI Video Emotion Screening Gated",
+          "description": "Video interview emotion and sentiment analysis is in roadmap preview and not active for production screening.",
+          "mitigation_or_alternative": "Standard interviewer scoring matrices are used for human evaluation."
+        }
+      ],
+      "media": [],
+      "source_references": [
+        {
+          "source_name": "CALDIM-DAS Product Showcase & Product Catalog",
+          "url": "https://caldimproducts.com/products",
+          "notes": "Candidate preview product listed in showcase"
+        }
+      ],
+      "notes": "ILLUSTRATIVE SAMPLE RECORD: Displayed in CALDIM-DAS showcase. Technical specifications require verification before admission to authoritative AI recommendations."
+    },
+    {
+      "name": "CALBUY",
+      "slug": "calbuy",
+      "category": "Procurement & Vendor Lifecycle Pipeline",
+      "tagline": "Streamlined purchase requisitions, RFQs, vendor comparisons, and PO issuance",
+      "overview": "Corporate purchasing workflow system supporting requisitions, quotation requests, supplier comparison, and purchase order tracking. Displayed in CALDIM-DAS showcase.",
+      "readiness_status": "preview_ready",
+      "publication_status": "draft",
+      "is_verified": false,
+      "verifier_name": null,
+      "verification_date": null,
+      "official_product_page": "https://caldimproducts.com/products",
+      "documentation_url": null,
+      "demo_url": null,
+      "video_preview_title": "",
+      "video_preview_description": "",
+      "hero_image_url": "",
+      "customization_scope": "Integration with existing ERP accounting tables and custom vendor qualification scoring.",
+      "integrations": [],
+      "deployment_options": ["Cloud SaaS"],
+      "pricing_status": "Unverified / Contact Sales",
+      "pricing_evidence": null,
+      "case_studies": [],
+      "customer_references": [],
+      "target_industries": ["Manufacturing & Supply Chain"],
+      "target_roles": ["Procurement Manager", "Supply Chain Lead"],
+      "business_problems": [
+        {
+          "industry": "Manufacturing & Supply Chain",
+          "business_problem": "Unauthorized Spend and Delayed Vendor Requisitions",
+          "solution_summary": "CALBUY enforces approval thresholds before PO dispatch and tracks vendor quotation history.",
+          "target_profession": "Procurement Manager / Supply Chain Lead"
+        }
+      ],
+      "capabilities": [
+        {
+          "title": "Requisition to Purchase Order Workflow [ILLUSTRATIVE]",
+          "description": "Multi-tier approval routing based on order value, budget center, and authority limits.",
+          "metric_highlight": "Preview feature observed in showcase",
+          "feature_order": 1,
+          "is_verified": false
+        }
+      ],
+      "limitations": [
+        {
+          "title": "ERP Direct Sync Gated",
+          "description": "Direct bidirectional ERP ledger synchronization requires custom middleware connector.",
+          "mitigation_or_alternative": "Standard CSV batch exchange is supported."
+        }
+      ],
+      "media": [],
+      "source_references": [
+        {
+          "source_name": "CALDIM-DAS Product Showcase",
+          "url": "https://caldimproducts.com/products",
+          "notes": "Candidate preview product listed in showcase"
+        }
+      ],
+      "notes": "ILLUSTRATIVE SAMPLE RECORD: Sourced from CALDIM-DAS showcase. ERP connectors require bespoke validation."
+    },
+    {
+      "name": "CALTRACK",
+      "slug": "caltrack",
+      "category": "Field Operations & Logistics Tracking",
+      "tagline": "Real-time field engineer dispatch, job ticketing, and proof-of-service capture",
+      "overview": "Field service dispatch solution for coordinating mobile service technicians, logging GPS-verified job completion, and capturing customer digital signatures. Displayed in CALDIM-DAS showcase.",
+      "readiness_status": "preview_ready",
+      "publication_status": "draft",
+      "is_verified": false,
+      "verifier_name": null,
+      "verification_date": null,
+      "official_product_page": "https://caldimproducts.com/products",
+      "documentation_url": null,
+      "demo_url": null,
+      "video_preview_title": "",
+      "video_preview_description": "",
+      "hero_image_url": "",
+      "customization_scope": "Custom service level agreements (SLAs), vehicle telematics webhooks, and customer SMS alerts.",
+      "integrations": [],
+      "deployment_options": ["Cloud SaaS", "Mobile Native App"],
+      "pricing_status": "Unverified / Contact Sales",
+      "pricing_evidence": null,
+      "case_studies": [],
+      "customer_references": [],
+      "target_industries": ["Industrial Equipment Service & Maintenance"],
+      "target_roles": ["Field Service Director", "Dispatch Supervisor"],
+      "business_problems": [
+        {
+          "industry": "Industrial Equipment Service & Maintenance",
+          "business_problem": "Lack of Proof-of-Service and Delayed Job Ticket Invoicing",
+          "solution_summary": "Technicians capture photos, customer signature, and parts used on mobile for instant invoice trigger.",
+          "target_profession": "Field Service Director / Dispatch Supervisor"
+        }
+      ],
+      "capabilities": [
+        {
+          "title": "Field Dispatch & Mobile Job Ticketing [ILLUSTRATIVE]",
+          "description": "Assigns service tickets to field technicians based on territory and skill rating.",
+          "metric_highlight": "Preview feature observed in showcase",
+          "feature_order": 1,
+          "is_verified": false
+        }
+      ],
+      "limitations": [
+        {
+          "title": "Offline Mobile Sync Version Requirement",
+          "description": "Offline job card sync requires mobile app build 2.1 or higher.",
+          "mitigation_or_alternative": "Automatic synchronization occurs upon connection restoration."
+        }
+      ],
+      "media": [],
+      "source_references": [
+        {
+          "source_name": "CALDIM-DAS Product Showcase",
+          "url": "https://caldimproducts.com/products",
+          "notes": "Candidate preview product listed in showcase"
+        }
+      ],
+      "notes": "ILLUSTRATIVE SAMPLE RECORD: Sourced from CALDIM-DAS showcase. Unverified feature set."
+    },
+    {
+      "name": "AI Beauty Consultant",
+      "slug": "ai-beauty-consultant",
+      "category": "Retail & Consumer AI Consultation",
+      "tagline": "Conversational beauty advisor and skin regimen recommendation assistant",
+      "overview": "Consumer-facing AI consultation concept for personalized skincare regimens, shade matching, and cosmetics discovery. Visibly listed in the CALDIM-DAS product showcase screenshot. Provided as a structured sample record.",
+      "readiness_status": "concept",
+      "publication_status": "draft",
+      "is_verified": false,
+      "verifier_name": null,
+      "verification_date": null,
+      "official_product_page": null,
+      "documentation_url": null,
+      "demo_url": null,
+      "video_preview_title": "",
+      "video_preview_description": "",
+      "hero_image_url": "",
+      "customization_scope": "Sample retail showcase concept; architecture intended for e-commerce catalog sync.",
+      "integrations": [],
+      "deployment_options": ["Web Embed Widget"],
+      "pricing_status": "Unverified / Showcase Prototype",
+      "pricing_evidence": null,
+      "case_studies": [],
+      "customer_references": [],
+      "target_industries": ["Cosmetics & Skincare Retail", "Personal Care & Salons"],
+      "target_roles": ["Retail E-Commerce Director", "Brand Customer Experience Lead"],
+      "business_problems": [
+        {
+          "industry": "Cosmetics & Skincare Retail",
+          "business_problem": "Online Shopper Uncertainty in Selecting Personalized Skin Regimens",
+          "solution_summary": "Conversational assistant asks structured skin concerns and suggests compatible brand catalog products.",
+          "target_profession": "E-Commerce Experience Director"
+        }
+      ],
+      "capabilities": [
+        {
+          "title": "Conversational Skin Diagnostic [ILLUSTRATIVE]",
+          "description": "Guided questionnaire determining skin type, sensitivity, and skincare objectives.",
+          "metric_highlight": "Sample feature from CALDIM-DAS showcase",
+          "feature_order": 1,
+          "is_verified": false
+        }
+      ],
+      "limitations": [
+        {
+          "title": "Non-Medical Disclaimer & Showcase Scope",
+          "description": "Showcase prototype concept; does not provide clinical or dermatological medical diagnoses.",
+          "mitigation_or_alternative": "Restricted to retail product recommendation within client catalog."
+        }
+      ],
+      "media": [],
+      "source_references": [
+        {
+          "source_name": "CALDIM-DAS Product Showcase Screenshot",
+          "url": null,
+          "notes": "Visibly displayed as showcase tile in CALDIM-DAS interface"
+        }
+      ],
+      "notes": "ILLUSTRATIVE SHOWCASE RECORD: Sample entry from CALDIM-DAS showcase screenshot. Unverified; strictly excluded from authoritative industrial consultation."
+    },
+    {
+      "name": "Project Management",
+      "slug": "caldim-project-management",
+      "category": "Industrial Project Tracking & Milestones",
+      "tagline": "Milestone scheduling, critical path tracking, and engineering resource allocation",
+      "overview": "Roadmap conceptual platform intended to link engineering timesheets with Gantt milestones, deliverable deadlines, and engineering budget burndowns. Visibly listed in the CALDIM-DAS product showcase screenshot.",
+      "readiness_status": "concept",
+      "publication_status": "draft",
+      "is_verified": false,
+      "verifier_name": null,
+      "verification_date": null,
+      "official_product_page": "https://caldimproducts.com/products",
+      "documentation_url": null,
+      "demo_url": null,
+      "video_preview_title": "",
+      "video_preview_description": "",
+      "hero_image_url": "",
+      "customization_scope": "Conceptual architecture stage.",
+      "integrations": [],
+      "deployment_options": ["Cloud SaaS"],
+      "pricing_status": "Unverified Concept",
+      "pricing_evidence": null,
+      "case_studies": [],
+      "customer_references": [],
+      "target_industries": ["Engineering EPC & Infrastructure Projects"],
+      "target_roles": ["Project Delivery Director", "Chief Engineering Manager"],
+      "business_problems": [],
+      "capabilities": [],
+      "limitations": [
+        {
+          "title": "Roadmap Concept Stage",
+          "description": "This module is in architectural design and conceptual scoping. No production code or live demo exists.",
+          "mitigation_or_alternative": "CalTIMS utilization reporting is recommended for current labor tracking needs."
+        }
+      ],
+      "media": [],
+      "source_references": [
+        {
+          "source_name": "CALDIM-DAS Product Showcase Screenshot",
+          "url": "https://caldimproducts.com/products",
+          "notes": "Visibly displayed in showcase screenshot"
+        }
+      ],
+      "notes": "ILLUSTRATIVE SAMPLE RECORD: Visibly listed on CALDIM-DAS showcase. Sourced from roadmap concept; no standalone production build confirmed."
+    },
+    {
+      "name": "CALEMS",
+      "slug": "calems",
+      "category": "Enterprise Equipment & Maintenance Management",
+      "tagline": "Preventive maintenance scheduling and machine downtime analytics",
+      "overview": "Computerized maintenance management system (CMMS) in active development to schedule preventive machine servicing, track breakdown tickets, and monitor Mean Time to Repair (MTTR). Visibly listed in the CALDIM-DAS product showcase screenshot.",
+      "readiness_status": "in_development",
+      "publication_status": "draft",
+      "is_verified": false,
+      "verifier_name": null,
+      "verification_date": null,
+      "official_product_page": "https://caldimproducts.com/products",
+      "documentation_url": null,
+      "demo_url": null,
+      "video_preview_title": "",
+      "video_preview_description": "",
+      "hero_image_url": "",
+      "customization_scope": "Under active engineering development; architecture designed for PLC sensor integration.",
+      "integrations": [],
+      "deployment_options": ["Cloud SaaS", "Hybrid On-Premises"],
+      "pricing_status": "Unverified / In Development",
+      "pricing_evidence": null,
+      "case_studies": [],
+      "customer_references": [],
+      "target_industries": ["Automotive & Discrete Manufacturing"],
+      "target_roles": ["Plant Maintenance Head", "Reliability Engineer"],
+      "business_problems": [],
+      "capabilities": [
+        {
+          "title": "Preventive Maintenance Scheduling [ILLUSTRATIVE]",
+          "description": "Generates scheduled servicing work orders based on run-hours or calendar days.",
+          "metric_highlight": "Targeted reduction in unplanned plant machine downtime",
+          "feature_order": 1,
+          "is_verified": false
+        }
+      ],
+      "limitations": [
+        {
+          "title": "Alpha Development Status",
+          "description": "Currently in internal engineering testing. Not released for general production customer deployment.",
+          "mitigation_or_alternative": "Piloting with selected industrial manufacturing partners under early-access NDA."
+        }
+      ],
+      "media": [],
+      "source_references": [
+        {
+          "source_name": "CALDIM-DAS Product Showcase Screenshot",
+          "url": "https://caldimproducts.com/products",
+          "notes": "Visibly displayed in showcase screenshot"
+        }
+      ],
+      "notes": "ILLUSTRATIVE SAMPLE RECORD: Sourced from CALDIM-DAS showcase. In active engineering; not released for general production."
+    },
+    {
+      "name": "Warehouse Management",
+      "slug": "caldim-wms",
+      "category": "Intralogistics & Inventory Operations",
+      "tagline": "Bin-level inventory allocation, batch control, and barcode pick-pack workflows",
+      "overview": "Intralogistics platform supporting multi-warehouse stock allocation, FIFO/LIFO tracking, batch expiry alerts, and handheld barcode scanning. Visibly listed in the CALDIM-DAS product showcase screenshot.",
+      "readiness_status": "in_development",
+      "publication_status": "draft",
+      "is_verified": false,
+      "verifier_name": null,
+      "verification_date": null,
+      "official_product_page": "https://caldimproducts.com/products",
+      "documentation_url": null,
+      "demo_url": null,
+      "video_preview_title": "",
+      "video_preview_description": "",
+      "hero_image_url": "",
+      "customization_scope": "Configurable aisle/rack/bin layout and handheld scanner protocol adapters.",
+      "integrations": [],
+      "deployment_options": ["Cloud SaaS", "Local Warehouse Edge Server"],
+      "pricing_status": "Unverified / In Development",
+      "pricing_evidence": null,
+      "case_studies": [],
+      "customer_references": [],
+      "target_industries": ["Warehousing & 3PL Logistics", "Discrete Manufacturing"],
+      "target_roles": ["Warehouse Operations Director", "Supply Chain Dispatch Lead"],
+      "business_problems": [],
+      "capabilities": [
+        {
+          "title": "Bin-Level Inventory Tracking [ILLUSTRATIVE]",
+          "description": "Real-time stock location tracking down to individual rack bins and pallets.",
+          "metric_highlight": "Accurate physical-to-system stock synchronization",
+          "feature_order": 1,
+          "is_verified": false
+        }
+      ],
+      "limitations": [
+        {
+          "title": "AGV Integration In Planning",
+          "description": "Automated guided vehicle (AGV) integration module is in planning phase.",
+          "mitigation_or_alternative": "Supported via manual pick-pack workflows with handheld RF scanners."
+        }
+      ],
+      "media": [],
+      "source_references": [
+        {
+          "source_name": "CALDIM-DAS Product Showcase Screenshot",
+          "url": "https://caldimproducts.com/products",
+          "notes": "Visibly displayed in showcase screenshot"
+        }
+      ],
+      "notes": "ILLUSTRATIVE SAMPLE RECORD: Sourced from CALDIM-DAS showcase. Unverified technical specifications."
+    },
+    {
+      "name": "Asset Management",
+      "slug": "caldim-asset-management",
+      "category": "Fixed Asset Lifecycle & Depreciation",
+      "tagline": "Enterprise physical asset tracking, barcode tagging, and financial depreciation",
+      "overview": "Fixed asset registry tracking hardware, tooling, and plant machinery through acquisition, capitalization, straight-line/WDV depreciation, and retirement. Visibly listed in the CALDIM-DAS product showcase screenshot.",
+      "readiness_status": "in_development",
+      "publication_status": "draft",
+      "is_verified": false,
+      "verifier_name": null,
+      "verification_date": null,
+      "official_product_page": "https://caldimproducts.com/products",
+      "documentation_url": null,
+      "demo_url": null,
+      "video_preview_title": "",
+      "video_preview_description": "",
+      "hero_image_url": "",
+      "customization_scope": "Custom depreciation schedules (Straight Line, Written Down Value) and QR asset tagging.",
+      "integrations": [],
+      "deployment_options": ["Cloud SaaS"],
+      "pricing_status": "Unverified / In Development",
+      "pricing_evidence": null,
+      "case_studies": [],
+      "customer_references": [],
+      "target_industries": ["Corporate Enterprise & Heavy Plant Infrastructure"],
+      "target_roles": ["Chief Financial Officer", "Fixed Asset Controller"],
+      "business_problems": [],
+      "capabilities": [
+        {
+          "title": "Asset Depreciation Calculation [ILLUSTRATIVE]",
+          "description": "Calculates monthly depreciation values adhering to accounting standards.",
+          "metric_highlight": "Automated book-value computation",
+          "feature_order": 1,
+          "is_verified": false
+        }
+      ],
+      "limitations": [
+        {
+          "title": "Legacy ERP Sync Requires Custom Scripting",
+          "description": "Integration with legacy ERP accounting ledger requires custom export configuration.",
+          "mitigation_or_alternative": "Standard CSV export provided."
+        }
+      ],
+      "media": [],
+      "source_references": [
+        {
+          "source_name": "CALDIM-DAS Product Showcase Screenshot",
+          "url": "https://caldimproducts.com/products",
+          "notes": "Visibly displayed in showcase screenshot"
+        }
+      ],
+      "notes": "ILLUSTRATIVE SAMPLE RECORD: Sourced from CALDIM-DAS showcase. Unverified technical specifications."
+    },
+    {
+      "name": "CALMISC",
+      "slug": "calmisc",
+      "category": "Structural Steel & Material Takeoff Estimation",
+      "tagline": "Specialized material cost calculation and structural fabrication estimating",
+      "overview": "Domain-specific engineering estimation engine for steel fabricators and pre-engineered building contractors. Generates material cutting lists, weight estimations, and scrap calculations. Visibly listed in the CALDIM-DAS product showcase screenshot.",
+      "readiness_status": "in_development",
+      "publication_status": "draft",
+      "is_verified": false,
+      "verifier_name": null,
+      "verification_date": null,
+      "official_product_page": "https://caldimproducts.com/products",
+      "documentation_url": null,
+      "demo_url": null,
+      "video_preview_title": "",
+      "video_preview_description": "",
+      "hero_image_url": "",
+      "customization_scope": "Custom steel grade density tables and regional metal pricing index APIs.",
+      "integrations": [],
+      "deployment_options": ["Cloud SaaS"],
+      "pricing_status": "Unverified / In Development",
+      "pricing_evidence": null,
+      "case_studies": [],
+      "customer_references": [],
+      "target_industries": ["Structural Fabrication & Civil Construction"],
+      "target_roles": ["Chief Structural Estimator", "Fabrication Plant Manager"],
+      "business_problems": [],
+      "capabilities": [
+        {
+          "title": "Structural Steel Takeoff & BOM Generation [ILLUSTRATIVE]",
+          "description": "Calculates member weights, surface painting areas, and fastener counts from CAD dimensions.",
+          "metric_highlight": "Material estimation formulas for standard steel profiles",
+          "feature_order": 1,
+          "is_verified": false
+        }
+      ],
+      "limitations": [
+        {
+          "title": "Engineering Peer-Review Prototype Status",
+          "description": "Estimation algorithms are in beta validation and require licensed structural engineer verification.",
+          "mitigation_or_alternative": "Results serve as an estimator co-pilot and should be verified prior to procurement."
+        }
+      ],
+      "media": [],
+      "source_references": [
+        {
+          "source_name": "CALDIM-DAS Product Showcase Screenshot",
+          "url": "https://caldimproducts.com/products",
+          "notes": "Visibly displayed in showcase screenshot"
+        }
+      ],
+      "notes": "ILLUSTRATIVE SAMPLE RECORD: Sourced from CALDIM-DAS showcase. Unverified engineering calibration."
+    }
+  ]
+}

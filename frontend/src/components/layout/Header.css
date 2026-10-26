@@ -1,0 +1,125 @@
+.header {
+  width: 100%;
+  border-bottom: 1px solid var(--border-color);
+  background: var(--color-surface-glass);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  position: sticky;
+  top: 0;
+  z-index: 50;
+  box-shadow: var(--shadow-subtle);
+}
+
+.header__inner {
+  max-width: 1360px;
+  margin: 0 auto;
+  padding: 14px 24px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+.header__brand {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  cursor: pointer;
+}
+
+.header__logo-mark {
+  width: 40px;
+  height: 40px;
+  border-radius: var(--radius-md);
+  background: var(--gradient-brand);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 12px rgba(22, 125, 141, 0.25);
+}
+
+.header__logo-mark svg path {
+  stroke: #FFFFFF !important;
+}
+
+.header__title-block {
+  display: flex;
+  flex-direction: column;
+}
+
+.header__company-row {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.header__company {
+  font-weight: 800;
+  font-size: 1rem;
+  letter-spacing: 0.08em;
+  color: var(--color-text-main);
+}
+
+.header__separator {
+  color: var(--color-text-muted);
+  font-weight: 300;
+}
+
+.header__app-name {
+  font-weight: 700;
+  font-size: 1rem;
+  letter-spacing: -0.01em;
+  background: var(--gradient-brand);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.header__tagline {
+  font-size: 0.75rem;
+  color: var(--color-text-secondary);
+  font-weight: 500;
+}
+
+.header__nav {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.header__nav-btn {
+  padding: 8px 14px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  border-radius: var(--radius-full);
+  border: 1px solid transparent;
+  background: transparent;
+  color: var(--color-text-secondary);
+  cursor: pointer;
+  transition: all var(--transition-fast);
+}
+
+.header__nav-btn:hover {
+  background: var(--color-pale-teal);
+  color: var(--color-primary-teal);
+}
+
+.header__nav-btn--active {
+  background: var(--color-pale-teal);
+  color: var(--color-primary-teal);
+  border-color: var(--color-pale-teal-border);
+}
+
+.header__meta {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+@media (max-width: 768px) {
+  .header__inner {
+    padding: 12px 16px;
+  }
+  .header__tagline {
+    display: none;
+  }
+}

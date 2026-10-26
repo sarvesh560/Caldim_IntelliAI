@@ -1,0 +1,63 @@
+.badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  border-radius: var(--radius-full);
+  line-height: 1;
+  transition: all var(--transition-fast);
+  border: 1px solid transparent;
+}
+
+.badge--sm {
+  font-size: 0.6875rem;
+  padding: 4px 8px;
+}
+
+.badge--md {
+  font-size: 0.75rem;
+  padding: 5px 12px;
+}
+
+.badge__icon {
+  display: flex;
+  align-items: center;
+}
+
+/* Light Theme Variants */
+.badge--cyan, .badge--teal {
+  background: var(--color-pale-teal);
+  color: var(--color-primary-teal);
+  border-color: rgba(22, 125, 141, 0.3);
+}
+
+.badge--emerald {
+  background: var(--color-success-bg);
+  color: #059669;
+  border-color: var(--color-success-border);
+}
+
+.badge--amber {
+  background: var(--color-warning-bg);
+  color: #D97706;
+  border-color: var(--color-warning-border);
+}
+
+.badge--crimson {
+  background: var(--color-danger-bg);
+  color: #DC2626;
+  border-color: var(--color-danger-border);
+}
+
+.badge--purple {
+  background: var(--color-lavender-light);
+  color: #7C3AED;
+  border-color: rgba(124, 58, 237, 0.25);
+}
+
+.badge--neutral {
+  background: var(--color-surface-subtle);
+  color: var(--color-text-secondary);
+  border-color: var(--border-color);
+}

@@ -1,0 +1,3 @@
+"""
+Health check application package.
+"""

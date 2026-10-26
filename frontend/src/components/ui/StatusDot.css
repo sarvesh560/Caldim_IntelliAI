@@ -1,0 +1,83 @@
+.status-dot {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.status-dot--sm {
+  width: 10px;
+  height: 10px;
+}
+
+.status-dot--md {
+  width: 14px;
+  height: 14px;
+}
+
+.status-dot--lg {
+  width: 18px;
+  height: 18px;
+}
+
+.status-dot__core {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  z-index: 2;
+  transition: background-color var(--transition-normal);
+}
+
+.status-dot__pulse {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  z-index: 1;
+  opacity: 0.75;
+  animation: ping 2s cubic-bezier(0, 0, 0.2, 1) infinite;
+}
+
+/* Status variants */
+.status-dot--healthy .status-dot__core {
+  background-color: var(--color-emerald);
+  box-shadow: 0 0 10px var(--color-emerald);
+}
+.status-dot--healthy .status-dot__pulse {
+  background-color: var(--color-emerald);
+}
+
+.status-dot--checking .status-dot__core {
+  background-color: var(--color-amber);
+  box-shadow: 0 0 10px var(--color-amber);
+}
+.status-dot--checking .status-dot__pulse {
+  background-color: var(--color-amber);
+}
+
+.status-dot--unreachable .status-dot__core {
+  background-color: var(--color-crimson);
+  box-shadow: 0 0 10px var(--color-crimson);
+}
+.status-dot--unreachable .status-dot__pulse {
+  background-color: var(--color-crimson);
+  animation-duration: 1.2s;
+}
+
+.status-dot--unhealthy .status-dot__core {
+  background-color: var(--color-amber);
+  box-shadow: 0 0 10px var(--color-amber);
+}
+.status-dot--unhealthy .status-dot__pulse {
+  background-color: var(--color-amber);
+}
+
+@keyframes ping {
+  75%, 100% {
+    transform: scale(2.4);
+    opacity: 0;
+  }
+}
